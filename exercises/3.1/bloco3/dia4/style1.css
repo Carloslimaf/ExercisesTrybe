@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:rgba(243, 239, 9, 0.932);
+    color: rgb(7, 7, 7);
+}
+
+.mainmenu {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.932);
+}
+
+.mainmenu ul li  {
+    display: inline;
+    list-style-type: none;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;        
+}
+
+.espaçamento {
+    margin: 40px;
+    font-size: 30px;
+    }
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family:monospace;
+}
+
+.infogeneral {
+    background-color: rgba(243, 239, 9, 0.932);
+    padding-bottom: 20px;
+}
+
+.infogeneral p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.image1 {
+    position:relative;
+    width: 300px;
+    left: 35%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-style:black;    
+}
+
+caption {
+    border: 3px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.boxerinfo {
+    padding-bottom: 20px;
+}
+
+.boxerinfo p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.reference {
+    background-color: rgba(243, 239, 9, 0.932);
+    padding: 20px;
+}
+
+.reference h2 {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.reference ul li {
+    list-style-type: none;    
+}
+
+.footer h3 {
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.301);
+    border-top: 2px solid black;
+}
+
+main {
+    width: 80%;
+}
+
+footer {
+    }
+
+aside {    
+    border: 3px solid black;        
+    width: 20%;
+    background-color: rgba(243, 239, 9, 0.932);
+}
+
+#mainsection {
+    display: flex;
+    flex-direction: row;
+   }
